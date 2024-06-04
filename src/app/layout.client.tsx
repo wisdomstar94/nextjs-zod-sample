@@ -6,6 +6,7 @@ import { ReactNode, useState } from "react";
 export function RootLayoutClient(props: { children: ReactNode }) {
   const [menus, setMenus] = useState([
     { name: "/test/email-valid-check", href: "/test/email-valid-check" },
+    { name: "/test/date-valid-check", href: "/test/date-valid-check" },
   ]);
 
   return (
