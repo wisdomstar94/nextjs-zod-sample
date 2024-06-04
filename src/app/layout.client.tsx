@@ -8,6 +8,7 @@ export function RootLayoutClient(props: { children: ReactNode }) {
     { name: "/test/email-valid-check", href: "/test/email-valid-check" },
     { name: "/test/date-valid-check", href: "/test/date-valid-check" },
     { name: "/test/time-valid-check", href: "/test/time-valid-check" },
+    { name: "/test/datetime-valid-check", href: "/test/datetime-valid-check" },
   ]);
 
   return (

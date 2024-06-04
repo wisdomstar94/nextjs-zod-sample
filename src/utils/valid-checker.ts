@@ -17,3 +17,9 @@ export function isValidTime(value: string): boolean {
   const result = schema.safeParse(value);
   return result.success;
 }
+
+export function isValidDateTime(value: string): boolean {
+  const schema = z.string().datetime();
+  const result = schema.safeParse(value);
+  return result.success;
+}
